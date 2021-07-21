@@ -1,0 +1,35 @@
+.Intro{
+   height:100vh;
+    color: white;
+    margin: auto;
+    width: 50%;
+}
+
+.Intro-title{
+    font-size: 4rem; 
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    padding-top: 15rem;
+    padding-bottom: 2.5rem;
+    margin:0;
+}
+
+.Intro-buttons{
+    align-self: center;
+    border-top: .25rem solid white;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+   
+    
+    /* background-color: white; */
+    
+}
+
+
+.Intro-links{
+    padding: 2rem;
+    padding-top: 2rem;
+    text-decoration: none;
+    color:white;
+}

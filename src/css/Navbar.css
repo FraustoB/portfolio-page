@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    margin:0;
+    padding:0;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color:#3B3B3B;
+    color: white;
+}
+
+.frausto-brand{
+    font-size: 1.5rem;
+    color: white;
+    margin: .5rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.Navbar-navlinks ul{
+margin:0;
+padding:0;
+display: flex;
+}
+
+.Navbar-navlinks li{
+    list-style: none;
+}
+
+.Navbar-navlinks-link {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.Navbar-navlinks li:hover{
+    background-color: #858484;
+}
+
+
+.toggle-button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+@media(max-width: 850px ){
+    .toggle-button{
+        display: flex;
+    }
+    .Navbar-navlinks {
+        display: none;
+        width: 100%;
+    }
+
+    .Navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Navbar-navlinks ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .Navbar-navlinks li{
+        text-align: center;
+    }
+
+    .Navbar-navlinks li .Navbar-navlinks-link{
+        padding: .5rem 1rem;
+    }
+
+    .Navbar-navlinks.active{
+        display: flex;
+    }
+
+}
+
