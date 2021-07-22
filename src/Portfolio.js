@@ -15,14 +15,16 @@ export default function Portfolio() {
                     title={WonTonSoup.title}
                     description={WonTonSoup.description}
                     liveSite={WonTonSoup.liveSite}
-                    sourceCode={WonTonSoup.sourceCode} />
+                    sourceCode={WonTonSoup.sourceCode}
+                    img={WonTonSoup.img} />
 
                 <PortfolioCard
                     className='Portfolio-cards'
                     title={ApiTranslator.title}
                     description={ApiTranslator.description}
                     liveSite={ApiTranslator.liveSite}
-                    sourceCode={ApiTranslator.sourceCode} />
+                    sourceCode={ApiTranslator.sourceCode}
+                    img={ApiTranslator.img} />
             </div>
         </div>
     )

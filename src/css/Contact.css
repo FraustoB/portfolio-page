@@ -3,5 +3,7 @@
     color: black;
     height: 77vh;
     padding: 5rem;
-    margin: 5rem;
+    margin: 2rem;
+    border: 10px grey;
+    border-radius: 30px;
 }

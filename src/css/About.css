@@ -1,8 +1,60 @@
 .About{
-    
     background-color:#eeefea;
     color: black;
     height: 77vh;
-    padding: 5rem;
-    margin: 5rem;
+    padding: 1rem;
+    margin: 2rem;
+    border: 10px grey;
+    border-radius: 30px;
+}
+
+.About-container{
+    align-items: center;
+}
+
+.About-aboutme{
+    margin: auto;
+    width: 40vw;
+    text-align: center;
+    background-color: white;
+}
+.About-aboutme p{
+    font-size: 2rem;
+}
+
+.About-skills{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+    width: 50vw;
+    flex-wrap: wrap;
+}
+
+.About-skills h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+
+
+.About-skills ul{
+    display: flex;
+    justify-content: center;
+}
+
+.About-skills li{
+    list-style: none;
+    display: inline-block;
+    padding: .5rem;
+    flex-grow: 1;
+
+}
+.About-education{
+    padding-left: 4rem;
+    padding-top: none;
+}
+
+.About-education h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
 }

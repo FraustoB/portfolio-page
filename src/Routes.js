@@ -18,7 +18,7 @@ export default function Routes() {
                 <Switch>
                     <Route exact path='/' render={Intro} />
                     <Navbar >
-                        <Route exact path='/portfolio' render={Portfolio} />
+                        <Route exact path='/projects' render={Portfolio} />
                         <Route exact path='/about' render={About} />
                         <Route exact path='/contact' render={Contact} />
                     </Navbar>
