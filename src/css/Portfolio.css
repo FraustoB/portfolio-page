@@ -1,8 +1,40 @@
 .Portfolio{
-    display: flex;
     background-color:#eeefea;
     color: black;
     height: 77vh;
     padding: 5rem;
     margin: 5rem;
+    
+    
 }
+
+.root{
+    max-width: 345px;
+}
+
+.media{
+    height: 140px;
+}
+
+
+.Portfolio-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+}
+
+
+@media(max-width: 850px ){
+
+
+    .Portfolio{
+        display: flex;
+        justify-content: center;
+
+    }
+    .Portfolio-container{
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+    }
+    
