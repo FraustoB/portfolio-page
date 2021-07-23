@@ -23,14 +23,20 @@ nav{
     font-family: 'Source Code Pro', monospace;
 }
 
+.frausto-brand:hover{
+    cursor: pointer;
+}
+
 .Navbar-navlinks ul{
 margin:0;
 padding:0;
+margin-right: 4rem;
 display: flex;
 }
 
 .Navbar-navlinks li{
     list-style: none;
+    padding: 0 2rem;
 }
 
 .Navbar-navlinks-link {
@@ -83,7 +89,8 @@ display: flex;
     }
     .Navbar-navlinks ul{
         width: 100%;
-        flex-direction: column;
+        flex-direction: column; 
+        margin: 0;
     }
 
     .Navbar-navlinks li{

@@ -25,6 +25,13 @@ export default function Portfolio() {
                     liveSite={ApiTranslator.liveSite}
                     sourceCode={ApiTranslator.sourceCode}
                     img={ApiTranslator.img} />
+                <PortfolioCard
+                    className='Portfolio-cards'
+                    title='blog-placholder'
+                    description='blog-description'
+                    liveSite='this link goes to nowhere'
+                    sourceCode='same here'
+                    img={ApiTranslator.img} />
             </div>
         </div>
     )

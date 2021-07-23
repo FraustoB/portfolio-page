@@ -14,6 +14,7 @@
 
 .About-aboutme{
     margin: auto;
+    padding-top: 5rem;
     width: 40vw;
     text-align: center;
     background-color: white;
@@ -21,40 +22,22 @@
 .About-aboutme p{
     font-size: 2rem;
 }
-
-.About-skills{
-    text-align: center;
-    margin: auto;
-    justify-content: center;
-    background-color: white;
-    width: 50vw;
-    flex-wrap: wrap;
-}
-
-.About-skills h2{
-    font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
-}
-
-
-.About-skills ul{
+.About-links{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    
+}
+.About-resume{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.About-skills li{
-    list-style: none;
-    display: inline-block;
-    padding: .5rem;
-    flex-grow: 1;
-
-}
-.About-education{
-    padding-left: 4rem;
-    padding-top: none;
-}
-
-.About-education h2{
+.About-resume h2{
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
 }

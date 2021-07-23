@@ -4,10 +4,10 @@ import { useState } from 'react';
 
 export default function NavBar(props) {
 
-    const [isToggled, changeToggle]=useState(false)
+    const [isToggled, setIsToggle]=useState(false)
 
     const handleIsToggled=() => {
-        changeToggle(!isToggled)
+        setIsToggle(!isToggled)
     }
 
     return (
@@ -25,7 +25,7 @@ export default function NavBar(props) {
                             <li><NavLink activeClassName='Navbar-navlink-active ' className='Navbar-navlinks-link' to='/projects'>Projects</NavLink></li>
                             <li><NavLink activeClassName='Navbar-navlink-active' className='Navbar-navlinks-link' to='/about'>About</NavLink></li>
                             <li><NavLink activeClassName='Navbar-navlink-active' className='Navbar-navlinks-link' to='/contact'>Contact</NavLink></li>
-                            <li><NavLink activeClassName='Navbar-navlink-active' className='Navbar-navlinks-link' to='/resume'>Resume</NavLink></li>
+
                         </ul>
                     </div>
                 </div>
