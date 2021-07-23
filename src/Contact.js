@@ -4,15 +4,13 @@ import emailjs from 'emailjs-com';
 function Contact(props) {
 
     const [contInfo, setContInfo]=useState({
-        fName: '',
-        lName: '',
+        name: '',
         email: '',
         subject: '',
         message: ''
     })
 
-    const handleFNameChange=(e) => setContInfo({ ...contInfo, fName: e.target.value })
-    const handleLNameChange=(e) => setContInfo({ ...contInfo, lName: e.target.value })
+    const handleFNameChange=(e) => setContInfo({ ...contInfo, name: e.target.value })
     const handleEmailChange=(e) => setContInfo({ ...contInfo, email: e.target.value })
     const handleSubjectChange=(e) => setContInfo({ ...contInfo, subject: e.target.value })
     const handleMessageChange=(e) => setContInfo({ ...contInfo, message: e.target.value })
@@ -29,10 +27,9 @@ function Contact(props) {
 
     const handleSubmit=(e) => {
         e.preventDefault();
-        sendEmail(e);
+        // sendEmail(e);
         setContInfo({
-            fName: '',
-            lName: '',
+            name: '',
             email: '',
             subject: '',
             message: ''
@@ -43,30 +40,20 @@ function Contact(props) {
     return (
         <div className='Contact'>
             <div className='Contact-form-container'>
+                <span>
+                    <img src="https://img.icons8.com/pastel-glyph/64/000000/email-marketing--v2.png" />
+                    <h2> Lets get in touch</h2>
+                </span>
+
                 <form className='Contact-form' onSubmit={handleSubmit}>
-                    <span>
-                        <label htmlFor='fNamee'>First Name</label>
-                        <input onChange={handleFNameChange} value={contInfo.fName} name='fName' id='fName' />
-                    </span>
 
-                    <span>
-                        <label htmlFor='lName'>Last Name</label>
-                        <input onChange={handleLNameChange} value={contInfo.lName} name='lName' id='lName' />
-                    </span>
+                    <input onChange={handleFNameChange} value={contInfo.name} name='name' id='name' placeholder='Name' />
+                    <input onChange={handleEmailChange} value={contInfo.email} name='email' id='email' placeholder='Email' />
+                    <input onChange={handleSubjectChange} value={contInfo.subject} name='subject' id='subject' placeholder='Subject' />
+                    <textarea onChange={handleMessageChange} value={contInfo.message} name='message' id='message' placeholder='Message'
+                        className='Contact-message' />
 
-                    <span>
-                        <label htmlFor='email'>Email</label>
-                        <input onChange={handleEmailChange} value={contInfo.email} name='email' id='email' />
-                    </span>
-                    <span>
-                        <label htmlFor='company'>Subject</label>
-                        <input onChange={handleSubjectChange} value={contInfo.subject} name='subject' id='subject' />
-                    </span>
-                    <span>
-                        <label htmlFor='message'>Message</label>
-                        <input onChange={handleMessageChange} value={contInfo.message} name='message' id='message' />
-                    </span>
-                    <button className='btn btn-primary'>Submit</button>
+                    <button className='btn btn-secondary'>Send Off</button>
                 </form>
             </div>
 
