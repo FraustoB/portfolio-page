@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import './css/Navbar.css';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function NavBar(props) {
 
@@ -14,7 +15,8 @@ export default function NavBar(props) {
         <>
             <nav>
                 <div className='Navbar'>
-                    <div className='frausto-brand'> {`<`}frausto.dev{`>`}</div>
+                    <Link to='/' style={{ textDecoration: 'none' }}><div className='frausto-brand'> {`<`}frausto.dev{`>`}</div></Link>
+
                     <button className='toggle-button' onClick={handleIsToggled}>
                         <span className='bar'></span>
                         <span className='bar'></span>

@@ -17,7 +17,6 @@
     padding-top: 5rem;
     width: 40vw;
     text-align: center;
-    background-color: white;
 }
 .About-aboutme p{
     font-size: 2rem;
@@ -40,4 +39,12 @@
 .About-resume h2{
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
+}
+
+.About-resume a{
+    color: #464646;
+}
+
+.About-resume a:hover{
+    color: #AAA9A9;
 }
