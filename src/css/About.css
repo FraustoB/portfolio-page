@@ -48,3 +48,11 @@
 .About-resume a:hover{
     color: #AAA9A9;
 }
+
+
+
+/* ipad pro screen size adjustments */
+
+@media(max-width: 1024px ){
+    
+}

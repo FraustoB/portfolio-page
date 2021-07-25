@@ -44,3 +44,33 @@ border-radius: 7px;
 }
 
 
+
+/* ipad screen size styling */
+
+@media(max-width: 1024px ){
+
+    .Contact-form-container{
+        width: 60vw;
+    }
+
+    .Contact-form{
+        
+        width: 60vw;
+    }
+    
+    
+    .Contact-form input{
+        width: 30rem;
+        height: 2.5rem;
+        border-radius: 7px;
+        }
+
+        .Contact-form textarea{
+            width: 30rem;
+            height: 9rem;
+        }
+
+}
+
+
+

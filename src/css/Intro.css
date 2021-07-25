@@ -38,3 +38,16 @@
 .Intro-links:hover{
     color: grey;
 }
+
+
+
+
+@media(max-width: 1024px ){
+
+    .Intro-title{
+
+        padding-top: 25rem;
+        
+    }
+
+}
