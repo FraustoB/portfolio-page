@@ -71,3 +71,16 @@
         font-size: 1.25rem;
     }
 }
+
+
+
+
+/* Screen size for iphone x and anything up to 380*/
+
+@media(max-width: 380px ){
+    .About{
+        width: 100vw;
+        margin-left: -.03rem;
+        
+    }
+}

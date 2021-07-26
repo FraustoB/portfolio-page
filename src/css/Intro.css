@@ -50,7 +50,6 @@
 
 }
 
-
 /* regular ipad screensize adjustments */
 
 @media(max-width: 770px ){
@@ -83,6 +82,20 @@
 .Intro-buttons{
     font-size: 1.25rem;
 }
+}
+/* 
+iphone x and other screens smaller than 380px */
+@media(max-width:  420px ){
+    .Intro-buttons{
+        font-size: 1rem;
+    }
+
+    .Intro-title{
+        width: 100vw;
+        margin-top: -8rem;
+        
+        font-size: 2rem;
+    }
 }
 
 

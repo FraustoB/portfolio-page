@@ -112,6 +112,20 @@ border-radius: 7px;
 }
 
 
+/* Screen size for iphone x and anything up to 380*/
+
+@media(max-width: 380px ){
+    .Contact{
+        width: 100vw;
+       margin-left: -.03rem;
+    }
+
+    .Contact-form{
+        width: 90vw;
+    }
+}
+
+
 
 
 

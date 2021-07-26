@@ -67,6 +67,15 @@
 
     }
 
+    @media(max-width: 380px ){
+        .Portfolio{
+            width: 100vw;
+       margin-left: -.03rem;
+            
+        }
+    }
+    
+
 
 
 
