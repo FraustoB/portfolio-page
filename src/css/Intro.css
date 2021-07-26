@@ -85,7 +85,7 @@
 }
 /* 
 iphone x and other screens smaller than 380px */
-@media(max-width:  420px ){
+@media(max-width:  380px ){
     .Intro-buttons{
         font-size: 1rem;
     }
@@ -93,10 +93,34 @@ iphone x and other screens smaller than 380px */
     .Intro-title{
         width: 100vw;
         margin-top: -8rem;
-        
         font-size: 2rem;
     }
 }
+
+
+
+@media(max-width:  320px ){
+
+    .Intro-buttons{
+        font-size: 1rem;
+    }
+
+    .Intro-title{
+        width: 115vw;
+        margin-top: -11rem;
+        font-size: 1.75rem;
+        margin-left: -10rem;
+    }
+    .Intro-buttons{
+        width: 90vw;
+        margin-right: 1rem;
+    }
+    .Intro-links{
+        font-size: .75rem;
+    }
+   
+}
+
 
 
 

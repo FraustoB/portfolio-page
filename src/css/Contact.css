@@ -125,6 +125,25 @@ border-radius: 7px;
     }
 }
 
+/* Screen adjusments for iphone 5se adn smaller screen sizes  */
+@media(max-width: 320px ){
+    .Contact{
+        width: 99vw;
+       margin-left: 1rem;
+    }
+
+    .Contact-form input{
+        width: 17.5rem;
+    }
+    .Contact-form textarea{
+        width: 17.5rem;
+    }
+
+
+
+}
+
+
 
 
 

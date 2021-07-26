@@ -7,3 +7,21 @@
     background-size: cover;
 
 }
+
+
+@media(max-width: 380px ){
+    .FraustoApp{
+        height: 140vh;
+        width: 101vw;
+    }
+}
+
+/* iphone 5s size and below */
+@media(max-width:  320px ){
+
+    .FraustoApp{
+        height: 120vh;
+        width: 110vw;
+}
+    
+}
