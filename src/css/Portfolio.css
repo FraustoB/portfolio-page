@@ -15,6 +15,10 @@
 }
 
 
+
+
+
+/* ipad PRO width px adjustments */
 @media(max-width: 1024px ){
     .Portfolio-container{
         gap: 3rem;
@@ -23,7 +27,7 @@
 
 }
 
-
+/* I'm not actually sure what this is for, but if I remove it things break. */
 
 @media(max-width: 850px ){
 
@@ -38,4 +42,27 @@
         margin-bottom: 5rem;
     }
     }
+
+
+
+    /* regular Ipad adjustments */
+    @media(max-width: 770px ){
+        .Portfolio{
+         height: 90vh;  
+        }
+
+        .Portfolio-card{
+            height: 25rem;
+        }
+
+        .Portfolio-container{
+            margin-top: 4em;
+        }
+    }
+
+
+
+
+
+
     

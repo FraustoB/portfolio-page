@@ -45,7 +45,7 @@ border-radius: 7px;
 
 
 
-/* ipad screen size styling */
+/* ipad pro screen size styling */
 
 @media(max-width: 1024px ){
 
@@ -57,7 +57,6 @@ border-radius: 7px;
         
         width: 60vw;
     }
-    
     
     .Contact-form input{
         width: 30rem;
@@ -71,6 +70,23 @@ border-radius: 7px;
         }
 
 }
+
+/* ipad regular screen size adjustments */
+
+@media(max-width: 770px ){
+    .Contact-form{
+        width: 70vw;
+        margin-left: -2rem;
+    }
+
+    .Contact-form textarea{
+        border: solid grey 2px;
+    }
+
+}
+
+
+
 
 
 

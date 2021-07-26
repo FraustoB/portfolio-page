@@ -103,6 +103,7 @@ display: flex;
 
     .Navbar-navlinks.active{
         display: flex;
+        z-index: 1;
     }
 
 }

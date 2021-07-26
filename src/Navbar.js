@@ -22,7 +22,7 @@ export default function NavBar(props) {
                         <span className='bar'></span>
                         <span className='bar'></span>
                     </button>
-                    <div className={isToggled? 'Navbar-navlinks active':'Navbar-navlinks'}>
+                    <div onClick={handleIsToggled} className={isToggled? 'Navbar-navlinks active':'Navbar-navlinks'}>
                         <ul>
                             <li><NavLink activeClassName='Navbar-navlink-active ' className='Navbar-navlinks-link' to='/projects'>Projects</NavLink></li>
                             <li><NavLink activeClassName='Navbar-navlink-active' className='Navbar-navlinks-link' to='/about'>About</NavLink></li>

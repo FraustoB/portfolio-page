@@ -51,8 +51,10 @@
 
 
 
-/* ipad pro screen size adjustments */
+/* ipad screen size adjustments */
 
-@media(max-width: 1024px ){
-    
+@media(max-width:  770px ){
+    .About-aboutme {
+        width: 25rem;
+    }
 }

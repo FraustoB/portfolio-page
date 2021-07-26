@@ -11,7 +11,6 @@ export default function Portfolio() {
         <div className='Portfolio'>
             <div className='Portfolio-container'>
                 <PortfolioCard
-                    className='Portfolio-cards'
                     title={WonTonSoup.title}
                     description={WonTonSoup.description}
                     liveSite={WonTonSoup.liveSite}
@@ -19,7 +18,6 @@ export default function Portfolio() {
                     img={WonTonSoup.img} />
 
                 <PortfolioCard
-                    className='Portfolio-cards'
                     title={ApiTranslator.title}
                     description={ApiTranslator.description}
                     liveSite={ApiTranslator.liveSite}

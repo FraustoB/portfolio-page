@@ -10,11 +10,7 @@ function Contact(props) {
         message: ''
     })
 
-    const handleFNameChange=(e) => setContInfo({ ...contInfo, name: e.target.value })
-    const handleEmailChange=(e) => setContInfo({ ...contInfo, email: e.target.value })
-    const handleSubjectChange=(e) => setContInfo({ ...contInfo, subject: e.target.value })
-    const handleMessageChange=(e) => setContInfo({ ...contInfo, message: e.target.value })
-
+    const handleChange=(e) => setContInfo({ ...contInfo, [e.target.name]: e.target.value })
     function sendEmail(e) {
         e.preventDefault();
         emailjs.sendForm('service_jaqy12b', 'template_jdnim5a', e.target, 'user_WL8FlxANz3H5VBWNI7AB9')
@@ -47,10 +43,10 @@ function Contact(props) {
 
                 <form className='Contact-form' onSubmit={handleSubmit}>
 
-                    <input onChange={handleFNameChange} value={contInfo.name} name='name' id='name' placeholder='Name' />
-                    <input onChange={handleEmailChange} value={contInfo.email} name='email' id='email' placeholder='Email' />
-                    <input onChange={handleSubjectChange} value={contInfo.subject} name='subject' id='subject' placeholder='Subject' />
-                    <textarea onChange={handleMessageChange} value={contInfo.message} name='message' id='message' placeholder='Message'
+                    <input onChange={handleChange} value={contInfo.name} name='name' id='name' placeholder='Name' />
+                    <input onChange={handleChange} value={contInfo.email} name='email' id='email' placeholder='Email' />
+                    <input onChange={handleChange} value={contInfo.subject} name='subject' id='subject' placeholder='Subject' />
+                    <textarea onChange={handleChange} value={contInfo.message} name='message' id='message' placeholder='Message'
                         className='Contact-message' />
 
                     <button className='btn btn-secondary'>Send Off</button>

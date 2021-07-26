@@ -7,7 +7,7 @@ export default function about() {
             <div className='About-container'>
                 <div className='About-aboutme'>
                     <p> Fullstack Web Developer currently living in Arlington Texas. Passionate about software developement
-                        in love with learning new technologies, and creative Reactive Web applications. </p>
+                        in love with learning new technologies, and creative Reactive Web applications. Willing to work for any timezone and any location </p>
                 </div>
 
                 <div className='About-links'>
