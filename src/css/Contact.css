@@ -85,6 +85,32 @@ border-radius: 7px;
 
 }
 
+@media(max-width:  420px ){
+
+    .Contact-form-container h2{
+        font-size: 1.20rem;
+    }
+    .Contact-form-container span{
+        margin-left: -4rem;
+        margin-top: -2rem;
+    }
+    .Contact-form-container img{
+        height: 2rem;
+    }
+
+    .Contact-form{
+        height: 50vh;
+        width: 80vw;
+        margin-left: -4.3rem;
+    }
+    .Contact-form input{
+        width: 20rem;
+    }
+    .Contact-form textarea{
+        width: 20rem;
+    }
+}
+
 
 
 

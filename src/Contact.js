@@ -37,12 +37,11 @@ function Contact(props) {
         <div className='Contact'>
             <div className='Contact-form-container'>
                 <span>
-                    <img src="https://img.icons8.com/pastel-glyph/64/000000/email-marketing--v2.png" />
+                    <img alt='mail' src="https://img.icons8.com/pastel-glyph/64/000000/email-marketing--v2.png" />
                     <h2> Lets get in touch</h2>
                 </span>
 
                 <form className='Contact-form' onSubmit={handleSubmit}>
-
                     <input onChange={handleChange} value={contInfo.name} name='name' id='name' placeholder='Name' />
                     <input onChange={handleChange} value={contInfo.email} name='email' id='email' placeholder='Email' />
                     <input onChange={handleChange} value={contInfo.subject} name='subject' id='subject' placeholder='Subject' />

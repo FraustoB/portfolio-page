@@ -65,3 +65,25 @@
         width: 90vw;
     }
 }
+
+/* Iphone 6-8 adjustments/ ay screen size ~ 400 adjustments */
+@media(max-width: 420px ){
+.Intro{
+    width: 20vw;
+}
+
+.Intro-title{
+    margin-top: -8rem;
+    font-size: 2rem;
+}
+
+.card-img-top{
+    height: 9rem;
+}
+.Intro-buttons{
+    font-size: 1.25rem;
+}
+}
+
+
+

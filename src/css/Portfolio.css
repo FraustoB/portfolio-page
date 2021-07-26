@@ -60,6 +60,13 @@
         }
     }
 
+    @media(max-width: 420px ){
+        .Portfolio{
+            height: 85vh;
+        }
+
+    }
+
 
 
 

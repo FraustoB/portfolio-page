@@ -3,7 +3,6 @@ import Intro from './Intro';
 import About from './About';
 import Contact from './Contact';
 import Navbar from './Navbar';
-import NotFound from './NotFound';
 import {
     BrowserRouter as Router,
     Switch,
@@ -16,11 +15,12 @@ export default function Routes() {
         <div className='Routes'>
             <Router>
                 <Switch>
-                    <Route exact path='/' component={Intro} />
+                    <Route exact={true} path='/' component={Intro} />
                     <Navbar >
-                        <Route exact path='/projects' component={Portfolio} />
-                        <Route exact path='/about' component={About} />
-                        <Route exact path='/contact' component={Contact} />
+                        <Route exact={true} path='/projects' component={Portfolio} />
+                        <Route exact={true} path='/about' component={About} />
+                        <Route exact={true} path='/contact' component={Contact} />
+
                     </Navbar>
                 </Switch>
             </Router>

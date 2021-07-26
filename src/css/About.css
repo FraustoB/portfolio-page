@@ -58,3 +58,16 @@
         width: 25rem;
     }
 }
+
+
+
+/* Screen size for iphone 6/7/8 and anything up to 420 */
+
+@media(max-width:  420px ){
+    .About-aboutme{
+        width: 70vw;
+    }
+    .About-aboutme p{
+        font-size: 1.25rem;
+    }
+}
