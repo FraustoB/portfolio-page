@@ -15,11 +15,11 @@ export default function Routes() {
         <div className='Routes'>
             <Router>
                 <Switch>
-                    <Route exact={true} path='/' component={Intro} />
+                    <Route exact path='/' component={Intro} />
                     <Navbar >
-                        <Route exact={true} path='/projects' component={Portfolio} />
-                        <Route exact={true} path='/about' component={About} />
-                        <Route exact={true} path='/contact' component={Contact} />
+                        <Route exact path='/projects' component={Portfolio} />
+                        <Route exact path='/about' component={About} />
+                        <Route exact path='/contact' component={Contact} />
                     </Navbar>
                 </Switch>
             </Router>
