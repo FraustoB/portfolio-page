@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FraustoB/portfolio-page/static/css/main.4c95fa7c.chunk.css",
+    "main.js": "/FraustoB/portfolio-page/static/js/main.65f78a2b.chunk.js",
+    "main.js.map": "/FraustoB/portfolio-page/static/js/main.65f78a2b.chunk.js.map",
+    "runtime-main.js": "/FraustoB/portfolio-page/static/js/runtime-main.1d8bffe6.js",
+    "runtime-main.js.map": "/FraustoB/portfolio-page/static/js/runtime-main.1d8bffe6.js.map",
+    "static/js/2.75e8476e.chunk.js": "/FraustoB/portfolio-page/static/js/2.75e8476e.chunk.js",
+    "static/js/2.75e8476e.chunk.js.map": "/FraustoB/portfolio-page/static/js/2.75e8476e.chunk.js.map",
+    "static/js/3.156cb5c8.chunk.js": "/FraustoB/portfolio-page/static/js/3.156cb5c8.chunk.js",
+    "static/js/3.156cb5c8.chunk.js.map": "/FraustoB/portfolio-page/static/js/3.156cb5c8.chunk.js.map",
+    "index.html": "/FraustoB/portfolio-page/index.html",
+    "static/css/main.4c95fa7c.chunk.css.map": "/FraustoB/portfolio-page/static/css/main.4c95fa7c.chunk.css.map",
+    "static/js/2.75e8476e.chunk.js.LICENSE.txt": "/FraustoB/portfolio-page/static/js/2.75e8476e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d8bffe6.js",
+    "static/js/2.75e8476e.chunk.js",
+    "static/css/main.4c95fa7c.chunk.css",
+    "static/js/main.65f78a2b.chunk.js"
+  ]
+}
