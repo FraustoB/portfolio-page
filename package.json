@@ -1,7 +1,7 @@
 {
   "name": "portfolio-page",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://fraustob.github.io/portfolio-page",
   "dependencies": {
     "@material-ui/core": "^4.12.2",
