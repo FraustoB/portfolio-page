@@ -2,7 +2,6 @@ import Portfolio from './Portfolio';
 import Intro from './Intro';
 import About from './About';
 import Contact from './Contact';
-import Navbar from './Navbar';
 import {
 
     Switch,

@@ -1,8 +1,8 @@
 {
   "name": "portfolio-page",
-  "homepage": "https://fraustob.github.io/portfolio-pages",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://FraustoB.github.io/portfolio-pages",
   "dependencies": {
     "@material-ui/core": "^4.12.2",
     "@material-ui/icons": "^4.11.2",
