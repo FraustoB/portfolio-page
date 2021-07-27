@@ -1,6 +1,7 @@
 import './css/Contact.css'
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
+import NavBar from './Navbar';
 function Contact(props) {
 
     const [contInfo, setContInfo]=useState({
@@ -23,7 +24,7 @@ function Contact(props) {
 
     const handleSubmit=(e) => {
         e.preventDefault();
-        // sendEmail(e);
+        sendEmail(e);
         setContInfo({
             name: '',
             email: '',
@@ -34,25 +35,29 @@ function Contact(props) {
 
 
     return (
-        <div className='Contact'>
-            <div className='Contact-form-container'>
-                <span>
-                    <img alt='mail' src="https://img.icons8.com/pastel-glyph/64/000000/email-marketing--v2.png" />
-                    <h2> Lets get in touch</h2>
-                </span>
 
-                <form className='Contact-form' onSubmit={handleSubmit}>
-                    <input onChange={handleChange} value={contInfo.name} name='name' id='name' placeholder='Name' />
-                    <input onChange={handleChange} value={contInfo.email} name='email' id='email' placeholder='Email' />
-                    <input onChange={handleChange} value={contInfo.subject} name='subject' id='subject' placeholder='Subject' />
-                    <textarea onChange={handleChange} value={contInfo.message} name='message' id='message' placeholder='Message'
-                        className='Contact-message' />
+        <>
+            <NavBar />
+            <div className='Contact'>
+                <div className='Contact-form-container'>
+                    <span>
+                        <img alt='mail' src="https://img.icons8.com/pastel-glyph/64/000000/email-marketing--v2.png" />
+                        <h2> Lets get in touch</h2>
+                    </span>
 
-                    <button className='btn btn-secondary'>Send Off</button>
-                </form>
+                    <form className='Contact-form' onSubmit={handleSubmit}>
+                        <input onChange={handleChange} value={contInfo.name} name='name' id='name' placeholder='Name' />
+                        <input onChange={handleChange} value={contInfo.email} name='email' id='email' placeholder='Email' />
+                        <input onChange={handleChange} value={contInfo.subject} name='subject' id='subject' placeholder='Subject' />
+                        <textarea onChange={handleChange} value={contInfo.message} name='message' id='message' placeholder='Message'
+                            className='Contact-message' />
+
+                        <button className='btn btn-secondary'>Send Off</button>
+                    </form>
+                </div>
+
             </div>
-
-        </div>
+        </>
 
     )
 
