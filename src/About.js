@@ -19,7 +19,7 @@ export default function about() {
                     </div>
 
                     <div className='About-resume'>
-                        <a href='www.google.come'><h2>Resume</h2></a>
+                        <a rel="noreferrer noopener" target="_blank" href='https://rxresu.me/r/ksluh6'><h2>Resume</h2></a>
                     </div>
                 </div>
             </div>
