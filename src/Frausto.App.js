@@ -3,11 +3,11 @@ import Routes from './Routes';
 import { BrowserRouter as Router } from 'react-router-dom'
 
 
-export default function FraustoApp({ basename }) {
+export default function FraustoApp() {
 
     return (
         <div className='FraustoApp'>
-            <Router basename={basename}>
+            <Router basename={process.env.PUBLIC_URL}>
                 <Routes />
             </Router>
         </div>
