@@ -7,7 +7,7 @@ export default function FraustoApp() {
 
     return (
         <div className='FraustoApp'>
-            <Router basename={process.env.PUBLIC_URL}>
+            <Router>
                 <Routes />
             </Router>
         </div>
