@@ -20,7 +20,6 @@ export default function Routes() {
                         <Route exact={true} path='/projects' component={Portfolio} />
                         <Route exact={true} path='/about' component={About} />
                         <Route exact={true} path='/contact' component={Contact} />
-
                     </Navbar>
                 </Switch>
             </Router>
