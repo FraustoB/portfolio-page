@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import FraustoApp from './Frausto.App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <FraustoApp />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );
 
