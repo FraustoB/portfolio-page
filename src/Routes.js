@@ -14,10 +14,10 @@ export default function Routes() {
         <div className='Routes'>
 
             <Switch>
-                <Route exact path='portfolio-page/' component={Intro} />
-                <Route exact path='portfolio-page/projects' component={Portfolio} />
-                <Route exact path='portfolio-page/about' component={About} />
-                <Route exact path='portfolio-page/contact' component={Contact} />
+                <Route exact path='/' component={Intro} />
+                <Route exact path='/projects' component={Portfolio} />
+                <Route exact path='/about' component={About} />
+                <Route exact path='/contact' component={Contact} />
                 <Route path='*' component={Intro} />
             </Switch>
 
