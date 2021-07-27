@@ -1,4 +1,5 @@
 Welcome to my Personal Website!
 
-The goal of this site is to have a centralized place to show my live code and source code, as well as give 
-potential jobs a place to view my work. 
+Centralized place for my code projects, and also links to find my LinkedIn and Github 
+Created Using ReactJs (hooks) , React Router,  Material-UI, Bootstrap v5, icns, and emailJS
+
