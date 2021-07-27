@@ -6,9 +6,9 @@ export default function Intro() {
             <h1 className='Intro-title'>{`<`}Brandon Frausto{`>`}</h1>
 
             <div className='Intro-buttons'>
-                <Link className='Intro-links' exact={'true'} to='/projects'>Projects</Link>
-                <Link className='Intro-links' exact={'true'} to='/about'>About</Link>
-                <Link className='Intro-links' exact={'true'} to='/contact'>Contact</Link>
+                <Link className='Intro-links' exact={'true'} to='portfolio-page/projects'>Projects</Link>
+                <Link className='Intro-links' exact={'true'} to='portfolio-page/about'>About</Link>
+                <Link className='Intro-links' exact={'true'} to='portfolio-page/contact'>Contact</Link>
             </div>
         </div>
     )

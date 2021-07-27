@@ -24,9 +24,9 @@ export default function NavBar(props) {
                     </button>
                     <div onClick={handleIsToggled} className={isToggled? 'Navbar-navlinks active':'Navbar-navlinks'}>
                         <ul>
-                            <li><NavLink activeClassName='Navbar-navlink-active ' className='Navbar-navlinks-link' to='/projects'>Projects</NavLink></li>
-                            <li><NavLink activeClassName='Navbar-navlink-active' className='Navbar-navlinks-link' to='/about'>About</NavLink></li>
-                            <li><NavLink activeClassName='Navbar-navlink-active' className='Navbar-navlinks-link' to='/contact'>Contact</NavLink></li>
+                            <li><NavLink activeClassName='Navbar-navlink-active ' className='Navbar-navlinks-link' to='portfolio-page/projects'>Projects</NavLink></li>
+                            <li><NavLink activeClassName='Navbar-navlink-active' className='Navbar-navlinks-link' to='portfolio-page/about'>About</NavLink></li>
+                            <li><NavLink activeClassName='Navbar-navlink-active' className='Navbar-navlinks-link' to='portfolio-page/contact'>Contact</NavLink></li>
 
                         </ul>
                     </div>
