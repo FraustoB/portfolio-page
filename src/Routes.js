@@ -15,12 +15,9 @@ export default function Routes() {
 
             <Switch>
                 <Route exact path='/' component={Intro} />
-
                 <Route exact path='/projects' component={Portfolio} />
                 <Route exact path='/about' component={About} />
                 <Route exact path='/contact' component={Contact} />
-
-
                 <Route path='*' component={Intro} />
             </Switch>
 
