@@ -9,7 +9,7 @@ ReactDOM.render(
   <HashRouter basename={process.env.PUBLIC_URL}>
     <FraustoApp />
   </HashRouter>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
